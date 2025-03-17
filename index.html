@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="focus-body">
+        <h1>FOCUS MODE</h1>
+        <div>The pho ne distracted you <span id="count"> 0 </span> time</div>
+        <button id="countButton" onclick="handleCount()">Tıkla</button>
+        <div class="icon-button">
+            <i id="birdPlay" class="fa-solid fa-dove"></i>
+            <audio id="birdPlayAudio" controls src="/assets/bird.mp3" type="audio/mp3"></audio>
+            <i id="pianoPlay" class="fa-solid fa-play"></i>
+            <audio id="pianoPlayAudio" controls src="/assets/piano.mp3" type="audio/mp3"></audio>
+            <i id="rainPlay" class="fa-solid fa-cloud"></i>
+            <audio id="rainPlayAudio" controls src="/assets/rain.mp3" type="audio/mp3"></audio>
+        </div>
+        <input type="range" id="volume-input" />
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/855955d50c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
